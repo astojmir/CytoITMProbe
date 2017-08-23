@@ -1,0 +1,44 @@
+<project default="package">
+  <property name="build" location="build"/>
+  <property name="lib" location="lib"/>
+  <property name="src" location="src/"/>
+  <path id="compile.classpath">
+    <fileset dir="${lib}"/>
+  </path>
+
+  <target name="compile">
+    <mkdir dir="${lib}"/>
+    <mkdir dir="${build}"/>
+    <javac destdir="${build}" debug="true" includeantruntime="true">
+      <src location="${src}"/>
+      <classpath refid="compile.classpath"/>
+    </javac>
+    <copy todir="build">
+      <fileset dir="${src}"
+               includes="**/*.png,
+                         **/*.props" />
+    </copy>
+  </target>
+
+  <target name="package" depends="compile">
+    <jar destfile="CytoItmProbe.jar" basedir="build">
+      <fileset dir="${build}"
+               includes="gov/nih/nlm/ncbi/qmbp/cytoitmprobe/main/plugin.props,
+	    	   gov/nih/nlm/ncbi/qmbp/cytoitmprobe/**/*.class,
+		   gov/nih/nlm/ncbi/qmbp/cytoitmprobe/**/*.png" />
+      <zipgroupfileset dir="${lib}" includes="**/*.jar" />
+      <manifest>
+        <attribute name="Cytoscape-Plugin"
+                   value="gov.nih.nlm.ncbi.qmbp.cytoitmprobe.main.CytoItmProbe" />
+      </manifest>
+    </jar>
+  </target>
+  <target name="test" depends="package">
+    <copy file="CytoItmProbe.jar" todir="/Users/stojmira/apps/Cytoscape_v2.8.1/plugins/" />
+    <exec executable="./cytoscape.sh" dir="/Users/stojmira/apps/Cytoscape_v2.8.1/" />
+  </target>
+  <target name="testdb" depends="package">
+    <copy file="CytoItmProbe.jar" todir="/home/bliskovs/vendor/cytoscape-2.8.1/plugins/" />
+    <exec executable="./cytoscapedb.sh" dir="/home/bliskovs/vendor/cytoscape-2.8.1"/>
+  </target>
+</project>

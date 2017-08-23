@@ -1,0 +1,159 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="About CytoITMprobe"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[0, 540]"/>
+    </Property>
+    <Property name="modalityType" type="java.awt.Dialog$ModalityType" editor="org.netbeans.modules.form.editors.EnumEditor">
+      <Value id="APPLICATION_MODAL"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[774, 750]"/>
+    </Property>
+  </Properties>
+  <AccessibilityProperties>
+    <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="About CytoITMprobe"/>
+  </AccessibilityProperties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="qmbpLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+              <Component id="bannerLabel" min="-2" pref="440" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+              <Component id="ncbiLabel" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="1"/>
+                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" min="-2" pref="721" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="qmbpLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="bannerLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="ncbiLabel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" pref="60" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="bannerLabel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gov/nih/nlm/ncbi/qmbp/cytoitmprobe/resources/banner-itmprobe.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[465, 77]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="qmbpLabel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gov/nih/nlm/ncbi/qmbp/cytoitmprobe/resources/logo-qmbp4.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ncbiLabel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gov/nih/nlm/ncbi/qmbp/cytoitmprobe/resources/logo-ncbi4.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p&gt;Earlier, we developed a network information flow framework and implemented it as a web application, called &lt;i&gt;ITM Probe&lt;/i&gt;. Given a context consisting of one or more user-selected nodes, &lt;i&gt;ITM Probe&lt;/i&gt; retrieves other network nodes most related to that context. Although &lt;i&gt;ITM Probe&lt;/i&gt; has several desirable features such a requiring neither restriction to subnetwork of interest nor additional and possibly noisy information, it still has a few limitations. For example, users can only query pre-compiled protein interaction networks. Also, manipulating the layout of significant subnetworks is non-trivial. Most importantly, it is difficult to integrate the results of &lt;i&gt;ITM Probe&lt;/i&gt; within workflows involving other analysis methods. To resolve these difficulties. we thus developed &lt;i&gt;CytoITMprobe&lt;/i&gt;, a &lt;i&gt;Cytoscape&lt;/i&gt; plugin.&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;&lt;i&gt;CytoITMprobe&lt;/i&gt; provides access to &lt;i&gt;ITM Probe&lt;/i&gt; either through a web server or locally. The input, consisting of desired origins and/or destinations of information and a dissipation coefficient, is specified through a query form. The results are shown as a subnetwork of significant nodes and several summary tables. Users can control the composition and appearance of the subnetwork.&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;Saving results as node and network attributes, &lt;i&gt;CytoITMprobe&lt;/i&gt; allows Cytoscape users to manipulate and visualize context-specific information in a manner more flexible than its web predecessor. It also enables seamless integration of &lt;i&gt;ITM Probe&lt;/i&gt; results with other &lt;i&gt;Cytoscape&lt;/i&gt; plugins having complementary functionality for data analysis.&lt;/p&gt;&#xa;&lt;/html&gt;&#xa;"/>
+        <Property name="inheritsPopupMenu" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;b&gt;CytoITMprobe: a network information flow plugin for Cytoscape&lt;/b&gt;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;b&gt;Authors:&lt;/b&gt; Aleksandar Stojmirovic, Alexander Bliskovsky and Yi-Kuo Yu&lt;br&gt;&lt;br&gt; National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health,&lt;br&gt; Bethesda, MD 20894, United States&lt;br&gt;&lt;br&gt; &lt;b&gt;Documentation:&lt;/b&gt; &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/CBBresearch/Yu/mn/itm_probe/doc/&quot;&gt; https://www.ncbi.nlm.nih.gov/CBBresearch/Yu/mn/itm_probe/doc/ &lt;/a&gt;&lt;br&gt; &lt;b&gt;Downloads:&lt;/b&gt; &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/CBBresearch/qmbp/Yu/downloads&quot;&gt; https://www.ncbi.nlm.nih.gov/CBBresearch/Yu/downloads&lt;/a&gt;&lt;br&gt; &lt;b&gt;References:&lt;/b&gt;&lt;br&gt; Stojmirovic A, Yu YK (2009) ITM Probe: analyzing information flow in protein networks. &lt;i&gt;Bioinformatics&lt;/i&gt;, &lt;b&gt;25&lt;/b&gt;: 2447-9. &lt;br&gt;Stojmirovic A, Yu YK (2007) Information flow in interaction networks. &lt;i&gt;J Comput Biol&lt;/i&gt;, &lt;b&gt;14&lt;/b&gt;: 1115-43. &lt;br&gt;&lt;br&gt; The source code is placed in Public Domain. &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

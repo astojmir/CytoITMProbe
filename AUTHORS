@@ -1,0 +1,23 @@
+All CytoITMprobe code was written by Aleksandar Stojmirovic and Alexander
+Bliskovsky and is placed into Public Domain (see COPYING file), with the
+following exceptions:
+
+* HttpClient was taken from Apache Software Foundation and is available under
+  the Apache License.
+
+* GSON was taken from Google and is available under the Apache License.
+
+* The icons used in the graphical interface were taken from the Tango Icon
+  Library (http://tango.freedesktop.org/Tango_Icon_Library), version 0.8.90,
+  which was released into Public Domain. Some icons were modified.
+
+
+The research leading to CytoITMprobe was performed by Aleksandar Stojmirovic and
+Yi-Kuo Yu and described in the following papers:
+
+1. A.Stojmirovic and Y-K. Yu. Information flow in interaction networks.
+    J Comput Biol 2007, 14(8):1115–43.
+2. A.Stojmirovic and Y-K. Yu. Information flow in interaction networks II:
+    channels, path lengths and potentials. ArXiv e-print 0901.0287 (v2) 2010.
+3. A.Stojmirovic and Y-K. Yu. ITM Probe: analyzing information flow in protein
+    networks. Bioinformatics 2009, 25(18):2447–9.
